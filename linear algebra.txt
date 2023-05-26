@@ -1,0 +1,16 @@
+import numpy as np
+
+np.set_printoptions(legacy='1.13')
+
+n = int(input())
+array = np.array([input().split() for _ in range(n)], float)
+print(np.linalg.det(array))
+
+
+
+Input (stdin)
+2
+1.1 1.1
+1.1 1.1
+Expected Output
+0.0

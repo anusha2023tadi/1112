@@ -1,0 +1,16 @@
+def person_lister(func):
+    def inner(people):
+        return [func(p) for p in sorted(people, key = lambda x: (int(x[2])))]
+    return inner
+
+
+
+Input (stdin)
+3
+Mike Thomson 20 M
+Robert Bustle 32 M
+Andria Bustle 30 F
+Expected Output
+Mr. Mike Thomson
+Ms. Andria Bustle
+Mr. Robert Bustle

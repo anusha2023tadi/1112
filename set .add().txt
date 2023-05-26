@@ -1,0 +1,18 @@
+n = int(input())
+Country = set()
+for i in range(n):
+    Country.add(input())
+print(len(Country))
+
+
+Input (stdin)
+7
+UK
+China
+USA
+France
+New Zealand
+UK
+France
+Expected Output
+5

@@ -1,0 +1,14 @@
+# importing the groupby method
+from itertools import groupby
+
+# using for loop to iterate through the string
+for k, c in groupby(input()):
+        
+    #printing the output
+    print("(%d, %d)" % (len(list(c)), int(k)), end=' ')
+
+
+Input (stdin)
+1222311
+Expected Output
+(1, 1) (3, 2) (1, 3) (2, 1)

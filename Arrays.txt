@@ -1,0 +1,9 @@
+def arrays(arr):
+   #revrser array first, convert to float array with numpy
+   return(numpy.array(arr[::-1], float))
+
+
+Input (stdin)
+1 2 3 4 -8 -10
+Expected Output
+[-10.  -8.   4.   3.   2.   1.]

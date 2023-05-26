@@ -1,0 +1,13 @@
+import numpy as np
+
+poly = [float(x) for x in input().split()]
+x = float(input())
+print(np.polyval(poly, x))
+
+
+
+Input (stdin)
+1.1 2 3
+0
+Expected Output
+3.0

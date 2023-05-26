@@ -1,0 +1,20 @@
+import numpy
+n,m = map(int,input().split())
+ar = []
+for i in range(n):
+    row = list(map(int,input().split()))
+    ar.append(row)
+np_ar = numpy.array(ar)
+print(numpy.transpose(np_ar))
+print(np_ar.flatten())
+
+
+
+Input (stdin)
+2 2
+1 2
+3 4
+Expected Output
+[[1 3]
+ [2 4]]
+[1 2 3 4]

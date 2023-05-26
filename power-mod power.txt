@@ -1,0 +1,15 @@
+a = int( input() )
+b = int( input() )
+m = int( input() )
+
+print( pow(a, b) )
+print( pow(a, b, m) )
+
+
+Input (stdin)
+3
+4
+5
+Expected Output
+81
+1

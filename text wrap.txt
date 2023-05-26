@@ -1,0 +1,16 @@
+def wrap(string, max_width):
+    wrapresult = textwrap.fill(string,max_width)
+    return wrapresult
+
+
+Input (stdin)
+ABCDEFGHIJKLIMNOQRSTUVWXYZ
+4
+Expected Output
+ABCD
+EFGH
+IJKL
+IMNO
+QRST
+UVWX
+YZ

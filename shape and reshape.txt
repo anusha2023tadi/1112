@@ -1,0 +1,15 @@
+//You are given a space separated list of nine integers. Your task is to convert this list into a 3X3 NumPy array.//
+
+
+import numpy
+ar = list(map(int,input().split()))
+np_ar = numpy.array(ar)
+print(numpy.reshape(np_ar,(3,3)))
+
+
+Input (stdin)
+1 2 3 4 5 6 7 8 9
+Expected Output
+[[1 2 3]
+ [4 5 6]
+ [7 8 9]]

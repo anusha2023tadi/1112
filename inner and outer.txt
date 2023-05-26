@@ -1,0 +1,14 @@
+import numpy as np
+A = np.array(input().split(), int)
+B = np.array(input().split(), int)
+print(np.inner(A,B), np.outer(A,B), sep='\n')
+
+
+
+Input (stdin)
+0 1
+2 3
+Expected Output
+3
+[[0 0]
+ [2 3]]

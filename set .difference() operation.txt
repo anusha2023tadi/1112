@@ -1,0 +1,18 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+_ = int(input())
+SET_N = set(map(int, input().split()))
+
+_ = int(input())
+SET_B = set(map(int, input().split()))
+
+NEW_SET = SET_N.difference(SET_B)
+print(len(NEW_SET))
+
+
+Input (stdin)
+9
+1 2 3 4 5 6 7 8 9
+9
+10 1 2 3 11 21 55 6 8
+Expected Output
+4

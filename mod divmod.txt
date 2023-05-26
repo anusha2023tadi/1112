@@ -1,0 +1,36 @@
+//Read in two integers, a and b, and print three lines.
+The first line is the integer division a//b (While using Python2 remember to import division from __future__).
+The second line is the result of the modulo operator: a%b.
+The third line prints the divmod of a and b.//
+
+
+
+# ========================
+#       Information
+# ========================
+
+# Direct Link: https://www.hackerrank.com/challenges/python-mod-divmod/problem
+# Difficulty: Easy
+# Max Score: 10
+# Language: Python
+
+# ========================
+#         Solution
+# ========================
+
+A = int(input())
+B = int(input())
+
+print(A//B)
+print(A%B)
+print(divmod(A, B))
+
+
+
+Input (stdin)
+177
+10
+Expected Output
+17
+7
+(17, 7)

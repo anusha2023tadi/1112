@@ -1,0 +1,25 @@
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+N, X = input().split()
+
+io = list()
+
+for _ in range(int(X)):
+    ip = map(float, input().split())
+    io.append(ip)
+
+for i in zip(*io): 
+    print( sum(i)/len(i) ) 
+
+
+
+Input (stdin)
+5 3
+89 90 78 93 80
+90 91 85 88 86
+91 92 83 89 90.5
+Expected Output
+90.0
+91.0
+82.0
+90.0
+85.5
